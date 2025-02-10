@@ -45,7 +45,7 @@ public class SubmitOrderTest extends BaseTest {
 
     @DataProvider
     public Object[][] getData(){
-        return new Object[][]{{"admintest@gmail.com","Admintest123","QWERTY"},{"admin25@gmail.com","Admin123","IPHONE 13 PRO"}};
+        return new Object[][]{{"admintest@gmail.com","Admintest123","ZARA COAT 3"},{"admin25@gmail.com","Admin123","IPHONE 13 PRO"}};
     }
 
     @DataProvider
