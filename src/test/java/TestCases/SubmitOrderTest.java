@@ -30,7 +30,7 @@ public class SubmitOrderTest extends BaseTest {
          ConfirmationPage confirmationPage=checkoutPage.placeOrder();
          String successMessage= confirmationPage.getConfirmationMessage();
         Assert.assertTrue(successMessage.equalsIgnoreCase("THANKYOU FOR THE ORDER."), "Success message did not match expected value.");
-        System.out.println("order submitted");
+
 
     }
     @Test(dataProvider = "getHashMapDatafromJSON")
