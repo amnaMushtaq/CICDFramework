@@ -31,6 +31,7 @@ public class ErrorValidationsTest extends BaseTest {
         Assert.assertEquals("Incorrect email or password.",errorMessage);
 
     }
+    //ERROR VALDIATION
     @Test(groups = {"ErrorHandling"})
     public void ProductErrorValidation() throws InterruptedException, IOException {
         String prodName = "ZARA COAT 3";

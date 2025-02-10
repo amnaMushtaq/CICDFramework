@@ -17,6 +17,7 @@ import java.util.List;
 public class SubmitOrderTest extends BaseTest {
    // String prodName = "QWERTY";
 
+    //SUBMIT ORDER
     @Test(dataProvider="getData")
     public void submitOrder(String email, String password, String prodName) throws InterruptedException, IOException {
         CatalogPage catalogProducts=landingPage.loginApplication(email, password);
@@ -33,6 +34,7 @@ public class SubmitOrderTest extends BaseTest {
 
 
     }
+    //ORDER HISTORY
     @Test(dataProvider = "getHashMapDatafromJSON")
     public void orderHistory(HashMap<String,String> input) throws InterruptedException, IOException {
         //String prodName = "QWERTY";
