@@ -1,0 +1,7 @@
+AbstractComponent\AbstractComponent.class
+PageObject\LoginPage\CartPage.class
+PageObject\LoginPage\OrderPage.class
+PageObject\LoginPage\ConfirmationPage.class
+PageObject\LoginPage\LandingPage.class
+PageObject\LoginPage\CheckoutPage.class
+PageObject\LoginPage\CatalogPage.class
