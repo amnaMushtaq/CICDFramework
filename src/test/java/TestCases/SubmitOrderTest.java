@@ -53,7 +53,7 @@ public class SubmitOrderTest extends BaseTest {
         HashMap<String,String> data=new HashMap<String,String>();
         data.put("email","admintest@gmail.com");
         data.put("password","Admintest123");
-        data.put("prodName","QWERTY");
+        data.put("prodName","ZARA COAT 3");
         HashMap<String,String> data1=new HashMap<String,String>();
 
         data1.put("email","admin25@gmail.com");

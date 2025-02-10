@@ -33,12 +33,12 @@ public class ErrorValidationsTest extends BaseTest {
     }
     @Test(groups = {"ErrorHandling"})
     public void ProductErrorValidation() throws InterruptedException, IOException {
-        String prodName = "QWERTY";
+        String prodName = "ZARA COAT 3";
         CatalogPage catalogProducts=landingPage.loginApplication("admin25@gmail.com", "Admin123");
         List<WebElement> products=catalogProducts.getProductList();
         catalogProducts.addProductToCart(prodName);
         CartPage cartPage=catalogProducts.goToCartPage();
-        Boolean match =cartPage.verifyProductInCart("QWERTY");
+        Boolean match =cartPage.verifyProductInCart("ZARA COAT 3");
         Assert.assertFalse(match);
 
 
